@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:pwd="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:ver="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.zong.pwdview.PwdViewLayout
+        android:id="@+id/pwdViewLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        pwd:isInputNum="true"
+        pwd:isPwdModle="false"
+        pwd:pwd_border_style="square"
+        pwd:pwd_padding="5dp"
+
+        />
+
+    <com.zong.pwdview.PwdViewLayout
+        android:id="@+id/pwdViewLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        pwd:isInputNum="false"
+        pwd:isPwdModle="true"
+        pwd:pwd_border_style="square"
+        pwd:pwd_padding="5dp"
+
+        />
+
+    <com.zong.pwdview.PwdViewLayout
+        android:id="@+id/pwdViewLayout3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        pwd:isInputNum="false"
+        pwd:isPwdModle="false"
+        pwd:pwd_border_style="line"
+        pwd:pwd_padding="5dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="清除" />
+
+
+</LinearLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<declare-styleable name="PwdViewLayout">
+        <attr name="pwd_count" format="integer" />
+        <attr name="pwd_width" format="dimension" />
+        <attr name="pwd_height" format="dimension" />
+        <attr name="pwd_margin" format="dimension" />
+        <attr name="pwd_padding" format="dimension" />
+        <attr name="pwd_text_color" format="color" />
+        <attr name="pwd_focus_color" format="color" />
+        <attr name="pwd_normal_color" format="color" />
+        <attr name="pwd_point_color" format="color" />
+        <attr name="isInputNum" format="boolean" />
+        <attr name="isPwdModle" format="boolean" />
+        <attr name="pwd_border_style" >
+            <flag name="square" value="0" />
+            <flag name="line" value="1" />
+        </attr>
+    </declare-styleable>
+
+
+</resources>
