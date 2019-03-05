@@ -1,6 +1,6 @@
 apply plugin: 'com.android.library'
 //配置插件
-apply plugin: 'com.novoda.bintray-release'
+//apply plugin: 'com.novoda.bintray-release'
 android {
     compileSdkVersion 28
     defaultConfig {
@@ -28,12 +28,12 @@ dependencies {
     testImplementation 'junit:junit:4.12'
 
 }
-publish {
-    userOrg = 'zongzj'      //bintray注册的用户名
-    groupId = 'com.zong'         //compile引用时的第1部分groupId
-    artifactId = 'pwdview'     //compile引用时的第2部分项目名
-    repoName = 'pwdview'     //仓库名字
-    publishVersion = '1.0.0'    //compile引用时的第3部分版本号
-    desc = '验证码输入框、密码输入框、正方形输入框 '
-    website = 'https://github.com/zongzj/PwdView.git'
-}
+//publish {
+//    userOrg = 'zongzj'      //bintray注册的用户名
+//    groupId = 'com.zong'         //compile引用时的第1部分groupId
+//    artifactId = 'pwdview'     //compile引用时的第2部分项目名
+//    repoName = 'pwdview'     //仓库名字
+//    publishVersion = '1.0.0'    //compile引用时的第3部分版本号
+//    desc = '验证码输入框、密码输入框、正方形输入框 '
+//    website = 'https://github.com/zongzj/PwdView.git'
+//}
