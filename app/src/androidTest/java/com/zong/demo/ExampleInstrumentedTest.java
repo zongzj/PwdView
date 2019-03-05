@@ -1,4 +1,4 @@
-package com.zong.library;
+package com.zong.demo;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.zong.library.test", appContext.getPackageName());
+        assertEquals("com.zong.pwdview", appContext.getPackageName());
     }
 }

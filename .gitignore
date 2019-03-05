@@ -34,7 +34,6 @@ local.properties
 
 # Windows thumbnail db
 Thumbs.db
-
 # OSX files
 .DS_Store
 
@@ -48,6 +47,5 @@ Thumbs.db
 #.idea/workspace.xml - remove # and delete .idea if it better suit your needs.
 .gradle
 build/
-
 #NDK
 obj/

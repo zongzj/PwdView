@@ -1,4 +1,4 @@
-package com.zong.pwdview;
+package com.zong.demo;
 
 import org.junit.Test;
 
