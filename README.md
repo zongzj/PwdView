@@ -12,7 +12,6 @@
      implementation 'com.zong:pwdview:1.0.0'
 ```
 # 目前支持属性
-
 - pwd_width
 - pwd_height
 - pwd_margin
