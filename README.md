@@ -8,10 +8,12 @@
 # 截图
 <img src="https://github.com/zongzj/PwdView/blob/master/WX20190305-163543%402x.png" width="300">
 # Gradle文件引入
+
 ```
      implementation 'com.zong:pwdview:1.0.0'
 ```
 # 目前支持属性
+
 - pwd_width
 - pwd_height
 - pwd_margin
@@ -24,7 +26,8 @@
 - pwd_border_style
 # 使用
 ```
-    <com.zong.pwdview.PwdViewLayout
+   
+   <com.zong.pwdview.PwdViewLayout
         android:id="@+id/pwdViewLayout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
