@@ -6,4 +6,4 @@
   - 3.设置默认弹出键盘，数字键盘和字母键盘
   - 4.输入框尺寸
 # 截图
-WX20190305-163543@2x.png
+ ![image](https://github.com/zongzj/PwdView/blob/master/WX20190305-163543%402x.png)
