@@ -15,6 +15,8 @@ import android.view.ViewGroup;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 
+import com.zong.pwdview.R;
+
 public class PwdViewLayout extends RelativeLayout {
     int mPwdWidth;
     int mPwdFocusColor;
