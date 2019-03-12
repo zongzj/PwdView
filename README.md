@@ -7,6 +7,8 @@
   - 输入框尺寸
 # 截图
 <img src="https://github.com/zongzj/PwdView/blob/master/WX20190305-163543@2x.png" width="300">
+<img src="https://github.com/zongzj/PwdView/blob/master/WX20190312-104350@2x.png" width="300">
+
 # Gradle文件引入
 
 ```
@@ -26,7 +28,6 @@
 - pwd_border_style
 # 使用
 ```
-   
    <com.zong.pwdview.PwdViewLayout
         android:id="@+id/pwdViewLayout"
         android:layout_width="wrap_content"
