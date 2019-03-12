@@ -6,7 +6,7 @@
   - 设置默认弹出键盘，数字键盘和字母键盘
   - 输入框尺寸
 # 截图
-<img src="https://github.com/zongzj/PwdView/blob/master/WX20190305-163543%402x.png" width="300">
+<img src="https://github.com/zongzj/PwdView/blob/master/WX20190305-163543@2x.png" width="300">
 # Gradle文件引入
 
 ```
