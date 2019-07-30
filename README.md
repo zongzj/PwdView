@@ -7,6 +7,8 @@
   - 输入框尺寸
 # 截图
 <img src="https://github.com/zongzj/PwdView/blob/master/WX20190312-104350@2x.png" width="300">
+# 扫码下载demo
+<img src="https://github.com/zongzj/PwdView/blob/master/WX20190730-144636@2x.png" width="300">
 
 # Gradle文件引入
 
