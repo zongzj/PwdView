@@ -40,7 +40,7 @@
         pwd:pwd_border_style="line"
         pwd:pwd_padding="5dp" />
 ```
-javad代码
+# java 代码
 ```
        pwdViewLayout1.setPwdViewCount(5);//设置输入框个数
         //输入完成监听,获取输入内容
