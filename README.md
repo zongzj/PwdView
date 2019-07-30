@@ -13,7 +13,7 @@
 # Gradle文件引入
 
 ```
-     implementation 'com.zong:pwdview:1.0.0'
+     implementation 'com.zong:pwdview:1.0.1'
 ```
 # 目前支持属性
 
