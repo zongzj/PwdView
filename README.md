@@ -6,7 +6,6 @@
   - 设置默认弹出键盘，数字键盘和字母键盘
   - 输入框尺寸
 # 截图
-<img src="https://github.com/zongzj/PwdView/blob/master/WX20190305-163543@2x.png" width="300">
 <img src="https://github.com/zongzj/PwdView/blob/master/WX20190312-104350@2x.png" width="300">
 
 # Gradle文件引入
@@ -38,4 +37,25 @@
         pwd:isPwdModle="false"
         pwd:pwd_border_style="line"
         pwd:pwd_padding="5dp" />
+```
+javad代码
+```
+       pwdViewLayout1.setPwdViewCount(5);//设置输入框个数
+        //输入完成监听,获取输入内容
+        pwdViewLayout1.setInputFinshedListener(new PwdViewLayout.OnInputFinshedListener() {
+            @Override
+            public void inputFinshed(String content) {
+                Log.i(TAG, "inputFinshed: " + content);
+            }
+        });
+
+
+        findViewById(R.id.button).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                pwdViewLayout1.clearPwdContent();//清空输入内容
+                pwdViewLayout2.clearPwdContent();//清空输入内容
+                pwdViewLayout3.clearPwdContent();//清空输入内容
+            }
+        });
 ```
